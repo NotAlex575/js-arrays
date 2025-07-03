@@ -8,6 +8,8 @@ const teachers = [
   'Luca'
 ]; // NON MODIFICARE QUESTA VARIABILE
 
+
+
 // 1. Utilizzando un indice sull'array teachers, cambia il valore della
 // variabile fourthTeacher qui sotto in modo che sia il quarto insegnante elencato nell'array
 const fourthTeacher = teachers[3]; //l'array parte sempre da 0, quindi se si deve trovare il 4 insegnante, prendiamo la locazione 3 dell'array
@@ -48,8 +50,17 @@ console.log("Trovato Lewis! si trova nella posizione "+lewisIndex);
 
 // 8. Verifica se l'array teachers è vuoto
 // e salva il risultato nella variabile isTeachersEmpty
-const isTeachersEmpty = null;
+let check_is_empty = false;
+if(teachers.length === 0){
+  check_is_empty = true;
+  console.log ("l'array è vuoto...")
+}
+const isTeachersEmpty = check_is_empty;
+if(!check_is_empty){
+  console.log ("l'array non è vuoto...")
+}
 
 
 
-console.log(teachers)
+console.log("risultato finale array:")
+console.log(teachers) //ne ho messi 2 di console.log per farli vedere tutti nello stesso modo in output nella console
