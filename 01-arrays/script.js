@@ -30,8 +30,13 @@ teachers.shift();  //.shift -> rimuove il primo valore in un'array
 console.log("valore rimosso dalla prima posizione dell'array: "+firstTeacher);
 
 // 5. Aggiungi un insegnante di nome 'Vanessa' alla fine dell'array teachers
+console.log(teachers)
+teachers.push("Vanessa")  //.push -> aggiunge un nuovo valore nell'array all'ultima collocazione
+console.log("\nvalore aggiunto nell'ultima posizione dell'array: Vanessa");
+
 
 // 6. Aggiungi un insegnante di nome 'Sarah' all'inizio dell'array teachers
+
 
 // 7. Trova l'indice dell'insegnante 'Lewis' nell'array teachers
 // e salvalo nella variabile lewisIndex
