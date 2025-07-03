@@ -19,6 +19,9 @@ const longNames = teachers.filter(name => name.length >= 5); //.filter -> filtra
 console.log(longNames);             
 
 // 3. Rimuovi 'Ed' dall'array teachers
+const EdisIndex = teachers.indexOf('Ed');
+teachers.splice(EdisIndex, 1); //.splice -> aggiunge o elimina dei valori nell'array, in questo caso eliminiamo Ed dall'array Teachers (trovandolo prima usando il .indexOf e poi eliminandolo con il .splice(indice,quanti valori da eliminare))
+console.log(teachers)
 
 // 4. Verifica se 'Fabio' è presente nell'array teachers
 // e salva il risultato nella variabile isFabioPresent
