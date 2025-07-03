@@ -36,7 +36,9 @@ console.log("\nvalore aggiunto nell'ultima posizione dell'array: Vanessa");
 
 
 // 6. Aggiungi un insegnante di nome 'Sarah' all'inizio dell'array teachers
-
+console.log(teachers)
+teachers.unshift("Sarah")  //.unshift -> aggiunge un nuovo valore nell'array alla prima collocazione
+console.log("\nvalore aggiunto nella prima posizione dell'array: Sarah");
 
 // 7. Trova l'indice dell'insegnante 'Lewis' nell'array teachers
 // e salvalo nella variabile lewisIndex
