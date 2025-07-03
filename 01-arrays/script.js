@@ -42,7 +42,9 @@ console.log("\nvalore aggiunto nella prima posizione dell'array: Sarah");
 
 // 7. Trova l'indice dell'insegnante 'Lewis' nell'array teachers
 // e salvalo nella variabile lewisIndex
-const lewisIndex = null;
+const lewisIndex = teachers.indexOf('Lewis'); //.indexOf -> trova l'indice del valore che stiamo cercando nell'array
+console.log("Trovato Lewis! si trova nella posizione "+lewisIndex);
+
 
 // 8. Verifica se l'array teachers è vuoto
 // e salva il risultato nella variabile isTeachersEmpty
